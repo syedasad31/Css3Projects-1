@@ -1,0 +1,55 @@
+body {
+    padding: 5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    height: 3rem;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav > a {
+    color: black;
+    text-decoration: none;
+}
+
+nav > a.link {
+    display: inline-block;
+    width: 5rem;
+}
+nav > a.link:hover {
+    text-decoration: underline;
+}
+
+nav .icon-container {
+    display: inline-block;
+    width: 3rem;
+}
+
+.separator {
+    display: inline-block;
+    width: 3rem;
+    font-size: 1.4rem;
+    color: gray;
+}
+
+@font-face {
+    font-family: AlertaStencil;
+    src: url(./AllertaStencil-Regular.ttf);
+}
+.logo {
+    font-family: "AlertaStencil", serif;
+    font-size: 35px;
+}
+.logo .first-letter {
+    color: #A18A68;
+}
