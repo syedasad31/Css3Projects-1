@@ -85,7 +85,7 @@ footer {
     border-bottom: solid black 1px;
     margin-left: auto;
 }
-.newsletter-container input, button {
+.newsletter-container input, .newsletter-container button {
     border: none;
     background-color: white;
 }
@@ -103,4 +103,118 @@ footer {
 main {
     padding-top: 1rem;
     border-top: 1px solid lightgray;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-gallery {
+    width: 10%;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.product-image, .info-container {
+    width: 43%;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.info-container {
+    padding-left: 1rem;
+}
+
+.info-container h3 {
+    font-weight: lighter;
+}
+
+.price {
+    color: #A18A68;
+    margin-bottom: 3rem;
+}
+
+.star-rating {
+    margin-block: 1rem;
+}
+.star-rating img {
+    margin-right: .4rem;
+}
+.star-rating .review {
+    color: #707070;
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    position: relative;
+    top: -5px;
+}
+
+.product-description {
+    color: #707070;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.cart-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 5rem;
+    height: 3rem;
+    align-items: center;
+}
+.quantity-btns {
+    background-color: #EFEFEF;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+.quantity-btns button {
+    border: none;
+    background-color: #EFEFEF;
+    height: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-inline: 1rem;
+}
+
+.add-to-cart {
+    width: 70%;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    height: 100%;
+}
+
+.share-menu {
+    padding-bottom: 2rem;
+    vertical-align: middle;
+}
+.share-menu img {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.share-menu .separator {
+    color: lightgray;
+    display: inline-block;
+    margin-right: 1.2rem;
+    text-align: center;
+    position: relative;
+    top: -0.3rem;
+}
+
+.tag {
+    line-height: 1.5rem;
+}
+
+.value {
+    color: #A18A68;
 }
