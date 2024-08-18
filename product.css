@@ -8,12 +8,11 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .navigation {
-    width: 35%;
     height: 3rem;
-    margin-left: auto;
 
     display: flex;
     flex-direction: row;
@@ -166,9 +165,9 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-block: 5rem;
     height: 3rem;
-    align-items: center;
 }
 .quantity-btns {
     background-color: #EFEFEF;
@@ -177,10 +176,9 @@ main {
     height: 100%;
 }
 .quantity-btns button {
-    border: none;
     background-color: #EFEFEF;
+    border: none;
     height: 100%;
-    border-radius: 0.5rem;
     cursor: pointer;
     margin-inline: 1rem;
 }
@@ -217,4 +215,70 @@ main {
 
 .value {
     color: #A18A68;
+}
+
+/* Product Menu */
+.product-menu, .reviews-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-menu {
+    border-bottom: 1px solid lightgray;
+}
+
+.product-menu .menu-item {
+    height: 3rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.reviews-container {
+    justify-content: space-between;
+}
+
+.review-list, .review-form {
+    width: 48%;
+}
+.reviews-list  h4 {
+    font-weight: normal;
+}
+.review-title .date, .review-body {
+    font-size: 0.9rem;
+    color: #707070;
+}
+.review-body {
+    margin-block: 2rem;
+}
+
+/* Review form for adding a review */
+.review-form h3 {
+    font-weight: normal;
+}
+.review-info, .label, .save-info {
+    font-size: 0.8rem;
+    color: #707070;
+}
+
+.review-input {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.label input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+button.submit {
+    margin-top: 2rem;
+    height: 2.4rem;
+    background-color: black;
+    color: white;
+    width: 6rem;
+    border-radius: 4px;
 }
