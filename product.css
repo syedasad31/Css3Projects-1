@@ -9,6 +9,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid lightgray;
 }
 
 .navigation {
@@ -33,7 +34,7 @@ nav > a.link:hover {
     text-decoration: underline;
 }
 
-nav .icon-container {
+nav > a.icon-container {
     display: inline-block;
     width: 3rem;
     margin-bottom: -0.4rem;
@@ -86,6 +87,7 @@ footer {
 }
 .newsletter-container input, .newsletter-container button {
     border: none;
+    outline: none;
     background-color: white;
 }
 
