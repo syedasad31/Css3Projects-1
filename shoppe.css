@@ -64,6 +64,7 @@ footer {
     flex-direction: row;
     border-top: 1px solid lightgray;
     padding-top: 5rem;
+    justify-content: space-between;
 }
 
 .footer-links {
@@ -83,7 +84,6 @@ footer {
 
 .newsletter-container {
     border-bottom: solid black 1px;
-    margin-left: auto;
 }
 .newsletter-container input, .newsletter-container button {
     border: none;

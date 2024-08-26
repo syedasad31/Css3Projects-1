@@ -64,6 +64,7 @@ footer {
     flex-direction: row;
     border-top: 1px solid lightgray;
     padding-top: 5rem;
+    justify-content: space-between;
 }
 
 .footer-links {
@@ -83,7 +84,6 @@ footer {
 
 .newsletter-container {
     border-bottom: solid black 1px;
-    margin-left: auto;
 }
 .newsletter-container input, .newsletter-container button {
     border: none;
@@ -103,7 +103,6 @@ footer {
 
 main {
     padding-top: 1rem;
-    border-top: 1px solid lightgray;
 }
 
 .product-info {
@@ -145,8 +144,8 @@ main {
 .star-rating {
     margin-block: 1rem;
 }
-.star-rating img {
-    margin-right: .4rem;
+.star-rating > img + img {
+    margin-left: .4rem;
 }
 .star-rating .review {
     color: #707070;
@@ -154,7 +153,7 @@ main {
     margin-left: 1rem;
     font-size: 0.8rem;
     position: relative;
-    top: -5px;
+    top: -3px;
 }
 
 .product-description {
@@ -178,11 +177,11 @@ main {
     height: 100%;
 }
 .quantity-btns button {
-    background-color: #EFEFEF;
+    background-color: transparent;
     border: none;
     height: 100%;
     cursor: pointer;
-    margin-inline: 1rem;
+    margin-inline: 0.5rem;
 }
 
 .add-to-cart {
